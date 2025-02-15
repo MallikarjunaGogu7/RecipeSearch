@@ -21,7 +21,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 600px;
   width: 100%;
-  margin: 20px;
+  margin: 20px auto;
 }
 
 .search-title {
@@ -86,23 +86,6 @@ body {
   transform: translateY(-5px);
 }
 
-.recipe-title {
-  color: #333;
-  margin-bottom: 10px;
-  font-size: 20px;
-}
-
-.recipe-cuisine {
-  color: #555;
-  margin-bottom: 10px;
-  font-size: 16px;
-}
-
-.recipe-ingredients {
-  color: #666;
-  margin-bottom: 10px;
-  font-size: 14px;
-}
 
 .recipe-image {
   max-width: 100%;
@@ -114,7 +97,7 @@ body {
 @media (max-width: 768px) {
   .search-container {
     padding: 15px;
-    margin: 10px;
+    margin: 10px auto;
   max-width: 90%; /* Adjusted max-width for smaller screens */
   }
 
@@ -245,8 +228,18 @@ body {
   color: #9b59b6; /* Soft purple */
   font-size: 1rem;
   font-style: italic;
+  text-align: start;
 }
 
+.recipe-instructions{
+  color: #9b59b6; /* Soft purple */
+  font-size: 1rem;
+  font-style: italic;
+  text-align: start;
+}
+.sub-heading {
+  color:#26a69a;
+}
 
 
 /* Container */

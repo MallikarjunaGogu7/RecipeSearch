@@ -80,7 +80,10 @@ const SearchBar = () => {
           <h2 className="recipe-title">{selectedRecipe.name}</h2>
           <p className="recipe-cuisine">Cuisine: {selectedRecipe.cuisine}</p>
           <p className="recipe-ingredients">
-            Ingredients: {selectedRecipe.ingredients.join(", ")}
+            <span className="sub-heading">Ingredients:</span> {selectedRecipe.ingredients.join(", ")}
+          </p>
+          <p className="recipe-instructions">
+            <span className="sub-heading">Instructions:</span> {selectedRecipe.instructions.join(", ")}
           </p>
           <img
             src={selectedRecipe.image}
